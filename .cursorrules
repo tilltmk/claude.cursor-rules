@@ -1,0 +1,55 @@
+# Cursor AI Development Rules
+
+## Core Principles
+- **Structural Integrity**: Maintain existing architecture at all costs
+- **Minimalism**: One theme = one file/folder
+- **Edit-First**: Modify existing files before creating new ones
+- **Low Entropy**: Minimize file count
+
+## Directory Structure
+```
+docs/              # ALL markdown files
+user-delegated/    # User-assigned tasks
+ai-tools/          # AI helper scripts
+dev/               # Reusable dev tools
+```
+
+## Strict Prohibitions
+- No Windows scripts (.bat, .ps1) unless explicit
+- No TODOs or placeholder data
+- No major changes without approval
+- No redundant files or databases
+- No unauthorized deletions
+
+## Required Practices
+- Use real credentials and data
+- Maintain clean project structure
+- Protect fundamental files (DB, config, main)
+- Use existing databases
+- Document all changes in CHANGELOG.md
+
+## Change Management
+1. **Before**: Identify all dependencies
+2. **During**: Update affected components
+3. **After**: Verify compatibility, update CHANGELOG
+
+## Development Workflow
+1. Check if existing file can be edited
+2. Request approval for major changes
+3. Map dependency cascades
+4. Execute changes
+5. Document in CHANGELOG.md
+
+## Documentation Standards
+- All .md files under `docs/`
+- Single CHANGELOG.md for all changes
+- Semantic versioning (MAJOR.MINOR.PATCH)
+- Include migration notes
+
+## Code Standards
+- Clarity over cleverness
+- Consistent naming
+- Proper error handling
+- Meaningful variables
+
+**Goal**: Clean, minimal, efficient codebase respecting existing patterns.
