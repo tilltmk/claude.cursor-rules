@@ -2,8 +2,6 @@
 
 Ein Repository für optimierte Entwicklungsregeln zur Verwendung mit Claude und Cursor.
 
-> **Hinweis**: Diese Datei befindet sich unter `docs/README.md` gemäß unserer Dokumentationsstruktur.
-
 ## 📋 Übersicht
 
 Dieses Repository enthält spezifische Regeln und Richtlinien für die Zusammenarbeit zwischen Entwicklern und KI-Assistenten, um eine saubere, minimalistische und effiziente Projektstruktur zu gewährleisten.
