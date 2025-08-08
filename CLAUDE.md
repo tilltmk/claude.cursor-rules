@@ -1,7 +1,5 @@
 # Claude AI Development Guidelines
 
-> **Location**: `docs/claude.md` | **Version**: 2.0
-
 ## Core Directives
 
 ### 1. Structural Integrity
